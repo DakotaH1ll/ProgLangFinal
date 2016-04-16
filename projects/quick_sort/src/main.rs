@@ -10,7 +10,7 @@ fn main() {
     let mut numbers = [80, 32, 19, 56, -15, 1, -1, 0, 782, 1];
     println!("US: {:?}", numbers);
 
-    quick_sort(&mut numbers, &is_less);
+    quick_sort(&mut numbers, &is_more);
     println!("S: {:?}", numbers);
 
     // Sort strings
