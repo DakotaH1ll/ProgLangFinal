@@ -1,0 +1,6 @@
+[package]
+name = "bub_sort"
+version = "0.1.0"
+authors = ["DakotaH1ll <dakota.hill@uoit.net>"]
+
+[dependencies]
