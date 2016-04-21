@@ -21,7 +21,7 @@ struct Team { // Creates the struct for a two man team
 fn main() {
 
   for x in 0..25 {
-      println!("");
+      println!(""); // White space to hide the compiler messages
     }
 
     println!("Programming Languages Final Project");
@@ -70,7 +70,7 @@ fn vector_test() {
   vec.push("Captain America");
   vec.push("Hulk");
 
-  // Populate a vector with civilian names (pre-sorted)
+  // Populate a vector with civilian names
   let mut vec2 = Vec::new();
   vec2.push("Bruce Banner");
   vec2.push("Clint Barton");
@@ -121,6 +121,7 @@ fn struct_test() {
   println!("He leads {} {}", team_cap.member.first_name, team_cap.member.last_name);
 }
 
+//Bubble sort implementation
 fn bubble_sort<T: Ord>(items: &mut[T]) {
     let mut n = items.len();
     let mut swapped = true;
@@ -185,7 +186,7 @@ println!("");
 
 println!("Time Taken (Three Sorts): {} Nanoseconds", less_end_time-less_start_time);
 println!("Time Taken (Worst Case Scenario): {} Nanoseconds", worst_end_time-worst_start_time);
-
+// Times messed up by function calls
 
 }
 
@@ -237,6 +238,7 @@ fn insertion_sort_test() {
   println!("Time Taken (Worst Case Scenario): {} Nanoseconds", worst_end_time-worst_start_time);
 }
 
+//Insertion sort implementation
 fn insertion_sort<T: std::cmp::Ord>(items: &mut [T]) {
     for i in 1..items.len() {
         let mut j = i;
@@ -370,7 +372,7 @@ loop {
     }
 }
 
-// Used to pause the prgram until the user presses Enter
+// Used to pause the program until the user presses Enter
 fn cont () {
   println!("");
   println!("Press Enter To Continue");
