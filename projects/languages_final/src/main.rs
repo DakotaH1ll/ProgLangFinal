@@ -69,7 +69,6 @@ fn vector_test() {
   vec.push("Hawkeye");
   vec.push("Captain America");
   vec.push("Hulk");
-  vec.push("Batman");
 
   // Populate a vector with civilian names (pre-sorted)
   let mut vec2 = Vec::new();
